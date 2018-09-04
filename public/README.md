@@ -5,6 +5,4 @@ This is my personal page.
 
 ## Installation
 
-```
-$ npm run build
-```
+See the `dev` branch for more information.
