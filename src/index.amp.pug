@@ -19,6 +19,7 @@ mixin spans(spans)
 doctype html
 html(lang="en" amp)
   head
+    script(async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js")
     title Jens Metzner
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no")
@@ -41,6 +42,19 @@ html(lang="en" amp)
       style(amp-boilerplate).
         body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
   body
+    amp-analytics(type="googleanalytics")
+      script(type="application/json").
+        {
+          "vars": {
+            "account": "UA-125154255-1"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
     //- div(class="CircleBadge CircleBadge--large")
     //-   img(src="picture.jpeg" alt="Jens Metzner" class="CircleBadge-icon")
     header(class="d-flex flex-items-center flex-column mb-4 pt-4")

@@ -19,6 +19,12 @@ mixin spans(spans)
 doctype html
 html(lang="en")
   head
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-125154255-1")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-125154255-1');
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width,initial-scale=1,user-scalable=no")
     title Jens Metzner
