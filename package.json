@@ -12,7 +12,7 @@
   "scripts": {
     "test": "exit 0",
     "build:css": "./node_modules/.bin/sass src/index.scss:public/index.css --style compressed --load-path ./node_modules/ --no-source-map",
-    "build:pug": "./node_modules/.bin/pug --pretty --obj src/data.json --out public/ src/{index,index.amp}.pug",
+    "build:pug": "./node_modules/.bin/pug --pretty --obj ./src/data.json --out public/ src/",
     "build": "./node_modules/.bin/npm-run-all build:css build:pug"
   },
   "repository": {
