@@ -14,16 +14,19 @@ mixin spans(spans)
           if data.additional2
             li(class="text-gray mb-1")=data.additional2
           if data.url
-            a(href=data.url target="out")=data.url
+            a(href=data.url target="_blank")=data.url
 
 doctype html
-html(lang="en")
+html(lang="en" amp)
   head
-    meta(charset="utf-8")
-    meta(name="viewport" content="width=device-width,initial-scale=1,user-scalable=no")
     title Jens Metzner
-    link(href="index.css" rel="stylesheet")
-    link(rel="amphtml" href="/index.amp.html")
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no")
+    meta(name="msapplication-TileColor", content="#da532c")
+    meta(name="theme-color", content="#ffffff")
+    style(amp-custom)
+      include ../public/index.css
+    link(rel="canonical" href="/index.html")
     link(rel="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
     link(rel="icon", type="image/png", sizes="32x32", href="/favicon-32x32.png")
     link(rel="icon", type="image/png", sizes="16x16", href="/favicon-16x16.png")
@@ -31,9 +34,12 @@ html(lang="en")
     link(rel="mask-icon", href="/safari-pinned-tab.svg", color="#5bbad5")
     script(type="application/ld+json")
       include ld.json
-    meta(name="msapplication-TileColor", content="#da532c")
-    meta(name="theme-color", content="#ffffff")
-
+    script(async src="https://cdn.ampproject.org/v0.js")
+    style(amp-boilerplate).
+      body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    noscript
+      style(amp-boilerplate).
+        body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
   body
     //- div(class="CircleBadge CircleBadge--large")
     //-   img(src="picture.jpeg" alt="Jens Metzner" class="CircleBadge-icon")
@@ -46,10 +52,10 @@ html(lang="en")
       div(class="container-md")
         div(class="d-flex flex-justify-between flex-column flex-sm-row mx-2 mx-md-0")
           a(class="text-center my-1 my-md-0" href="mailto:mail@jensmetzner.de") Mail
-          a(class="text-center my-1 my-md-0" href="https://github.com/JensMetzner" target="github") Github
-          a(class="text-center my-1 my-md-0" href="https://www.cgmi.uni-konstanz.de/en/persons/research-fellows/jens-metzner/" target="uni") University of Konstanz
-          a(class="text-center my-1 my-md-0" href="https://scholar.google.de/citations?user=wfNn09EAAAAJ&hl=de" target="scholar") Google Scholar
-          a(class="text-center my-1 my-md-0" href="https://www.linkedin.com/in/jensmetzner/" target="linkedin") LinkedIn
+          a(class="text-center my-1 my-md-0" href="https://github.com/JensMetzner" target="_blank") Github
+          a(class="text-center my-1 my-md-0" href="https://www.cgmi.uni-konstanz.de/en/persons/research-fellows/jens-metzner/" target="_blank") University of Konstanz
+          a(class="text-center my-1 my-md-0" href="https://scholar.google.de/citations?user=wfNn09EAAAAJ&hl=de" target="_blank") Google Scholar
+          a(class="text-center my-1 my-md-0" href="https://www.linkedin.com/in/jensmetzner/" target="_blank") LinkedIn
     main(class="container-md")
       section(class="my-2 mb-4 mx-2 mx-md-0")
         p.lead.text-justify: =about_me_teaser
