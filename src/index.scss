@@ -1,0 +1,16 @@
+@import "primer-base/index.scss";
+@import "primer-layout/index.scss";
+@import "primer-avatars/index.scss";
+@import "primer-utilities/index.scss";
+
+body {
+  height: 100vh;
+}
+
+.blue {
+  fill: #0366d6 !important;
+}
+
+.text-justify {
+  text-align: justify;
+}

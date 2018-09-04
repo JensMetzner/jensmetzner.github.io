@@ -1,0 +1,98 @@
+{
+  "about_me": "Jens Metzner joined the <a href=\"https://www.cgmi.uni-konstanz.de/en/\" target=\"new\">Visual Computing Group</a> at the University of Konstanz (Germany) in 2016 and is a research associate and PhD student. His main research interests are computer graphics, specially the areas of real-time rendering, non-photorealistic rendering and procedural generation methods for complex objects (landscapes, urban structures). Furthermore he is interested in Machine Learning and Computer Vision as well as Information Visualization. Mr. Metzner is also involed in teaching and supervising students.",
+  "about_me_teaser": "Jens Metzner has loved programming since the age of 12, spending nights designing systems in his mind and transferring them into code the next day.",
+  "misc": "When I'm not spending time with my family or working, you often find me with friends in the mountains going backcountry skiing or climbing. I also enjoy traveling and exploring new places. Below are some photos that I took along the way.",
+  "cv": [
+    {
+      "time": "2016 - now",
+      "data": [
+        {
+          "title": "Ph.D. in Computer Science",
+          "subtitle": "Visual Computing Group - Prof. Deussen,  University of Konstanz",
+          "additional1": "Topic: Direct non-photorealistic renderings of procedural geometry"
+        }
+      ]
+    },
+    {
+      "time": "2012 - 2016",
+      "data": [
+        {
+          "title": "M.Sc. in Computer and Information Science",
+          "subtitle": "University of Konstanz",
+          "additional1": "Thesis: Stroke-based rendering of procedural tree models with dynamic level of detail"
+        }
+      ]
+    },
+    {
+      "time": "2008 - 2012",
+      "data": [
+        {
+          "title": "B.Sc. in Information Engineering",
+          "subtitle": "Visual Computing Group - Prof. Deussen, University",
+          "additional1": "Thesis: Interactive water color illustration for trees with dynamic level of detail"
+        }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "time": "2018",
+      "data": [
+        {
+          "title": "Computer graphics",
+          "subtitle": "Summer Term",
+          "additional1": "Lecture, Teaching Assistant"
+        },
+        {
+          "title": "Seminar: Current Trends in Computer Graphics 2018",
+          "subtitle": "Winter Term",
+          "additional1": "Seminar, Teaching Assistant"
+        }
+      ]
+    },
+    {
+      "time": "2017",
+      "data": [
+        {
+          "title": "Seminar: Current Trends in Computer Graphics 2017",
+          "subtitle": "Summer Term",
+          "additional1": "Seminar, Teaching Assistant"
+        },
+        {
+          "title": "Computer graphics",
+          "subtitle": "Summer Term",
+          "additional1": "Lecture, Teaching Assistant"
+        },
+        {
+          "title": "Seminar: Current Trends in Computer Graphics 2017",
+          "subtitle": "Winter Term",
+          "additional1": "Seminar, Teaching Assistant"
+        }
+      ]
+    },
+    {
+      "time": "2016",
+      "data": [
+        {
+          "title": "Seminar: Current Trends in Computer Graphics 2016",
+          "subtitle": "Winter Term",
+          "additional1": "Seminar, Teaching Assistant"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "time": "2015",
+      "data": [
+        {
+          "title": "Hardware-Based Non-Photorealistic Rendering Using a Painting Robot",
+          "additional1": "T. Lindemeier, J. Metzner, L. Pollak, O. Deussen",
+          "additional2": "Computer Graphics Forum 34.2 (2015), P. 311-323",
+          "url": "https://dx.doi.org/10.1111/cgf.12562"
+        }
+      ]
+    }
+  ],
+  "copyright": "© Jens Metzner 2018."
+}
