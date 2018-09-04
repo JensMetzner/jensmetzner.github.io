@@ -5,4 +5,4 @@ This is my personal page.
 
 ## Installation
 
-See the `dev` branch for more information.
+See [`dev` branch](https://github.com/JensMetzner/jensmetzner.github.io/tree/dev) for more information.
