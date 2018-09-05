@@ -14,9 +14,8 @@
     "test": "exit 0",
     "build:pug": "./node_modules/.bin/pug --obj ./src/data.json --out public src",
     "build:css": "./node_modules/.bin/sass src:public --style compressed --load-path ./node_modules/ --no-source-map",
-    "build:compress:normal": "./node_modules/.bin/purifycss public/index.css public/index.html -i -m -o public/index.css",
-    "build:compress:amp": "./node_modules/.bin/purifycss public/index.amp.css public/index.amp.html -i -m -o public/index.amp.css",
-    "build": "./node_modules/.bin/npm-run-all build:css build:pug build:compress:** build:pug"
+    "compress": "./node_modules/.bin/purifycss public/index.css public/index.html -i -m -o public/index.css",
+    "build": "./node_modules/.bin/npm-run-all build:**"
   },
   "repository": {
     "type": "git",

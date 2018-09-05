@@ -18,6 +18,7 @@ cache:
 script:
   - npm install
   - npm run build
+  - npm run compress
 
 deploy:
   provider: pages
