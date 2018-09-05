@@ -74,4 +74,7 @@ html(lang="en")
       section(class="my-2 mb-4 mx-2 mx-md-0")
         .Subhead: h2.Subhead-heading Misc
         p.text-justify: !=misc
+        div(class="d-flex flex-justify-between")
+          each image in misc_images
+            div: img(src=image class="responsive-image")
     footer(class="d-flex flex-items-center flex-column pb-2 mt-4")=copyright

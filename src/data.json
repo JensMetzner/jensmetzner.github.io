@@ -2,6 +2,12 @@
   "about_me": "Jens Metzner joined the <a href=\"https://www.cgmi.uni-konstanz.de/en/\" target=\"_blank\">Visual Computing Group</a> at the University of Konstanz (Germany) in 2016 and is a research associate and PhD student. His main research interests are computer graphics, specially the areas of real-time rendering, non-photorealistic rendering and procedural generation methods for complex objects (landscapes, urban structures). Furthermore he is interested in Machine Learning and Computer Vision as well as Information Visualization. Mr. Metzner is also involed in teaching and supervising students.",
   "about_me_teaser": "Jens Metzner has loved programming since the age of 12, spending nights designing systems in his mind and transferring them into code the next day.",
   "misc": "When I'm not spending time with my family or working, you often find me with friends in the mountains going backcountry skiing or climbing. I also enjoy traveling and exploring new places. Below are some photos that I took along the way.",
+  "misc_images": [
+    "img/min-sailing.jpg",
+    "img/min-saentis.jpg",
+    "img/min-fimber.jpg",
+    "img/min-alpenueberquerung.jpg"
+  ],
   "cv": [
     {
       "time": "2016 - now",
