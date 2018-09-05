@@ -10,11 +10,12 @@ mixin spans(spans)
             if data.subtitle
               span=' // '+data.subtitle
           if data.additional1
-            li(class="text-gray mb-1")=data.additional1
+            li(class="text-gray")=data.additional1
           if data.additional2
-            li(class="text-gray mb-1")=data.additional2
+            li(class="text-gray")=data.additional2
           if data.url
             a(href=data.url target="out")=data.url
+          li(class="mb-1")
 
 doctype html
 html(lang="en")
