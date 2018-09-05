@@ -5,18 +5,10 @@
 @import "primer-utilities/index.scss";
 @import "primer-subhead/index.scss";
 
-body {
-  height: 100vh;
-}
-
 .blue {
-  fill: #0366d6 !important;
+  fill: #0366d6;
 }
 
 .text-justify {
   text-align: justify;
-}
-
-.responsive-image {
-  max-width: 100%;
 }
